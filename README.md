@@ -65,4 +65,4 @@ The script uses simple R functions to execute the necessary analysis. As stated 
 9. Although not necessary for the assessment of this project, the data set is saved to your working directory as "merged_data.txt"
 10. In the final step of the analysis, two groups from the previous data set (subject and activity) using dplyr's group_by. This grouped data is then sorted according to the subject ID (so that we start with subject 1) using the arrange function and then finally applyes the mean function to all non-grouping variables (all 66 features) so that the average of each feature (variable) for each subject and each activity can be calculated. This is done by using dplyr's "summarise_each" function. This data set is then assigned to the variable tidyData2. This is then saved to the working directory as "tidy_data.txt" and can be loaded back to the workspace with the read.table() function.
 
-Written by: E. A. Dresch
+##### Written by: E. A. Dresch
